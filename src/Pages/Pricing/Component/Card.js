@@ -31,7 +31,7 @@ const Card = () => {
 
       <section className="cards">
         {data.map((item) => {
-          const { id, heading, line1, line2, line3 } = item;
+          const {  heading, line1, line2, line3 } = item;
           return (
             <SingleCard
               heading={heading}
